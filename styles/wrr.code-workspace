@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../WDD_130_Idaho/personal_web_page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wrr"
+	}
+}
