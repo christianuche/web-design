@@ -4,6 +4,10 @@
   font-family: Poppins, sans-serif;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
  
 body {
   background: #080808;
@@ -190,7 +194,7 @@ footer {
 }
 
 
-.contact-form {
+#contact-form {
   width: 300px;
   /* Add more styles as needed */
 }
