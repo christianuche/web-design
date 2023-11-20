@@ -6,7 +6,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
  
 body {
@@ -228,12 +228,13 @@ input {
 }
 
 input[type="submit"] {
-  background-color: #020f1d;
+  background-color: #082b51;
   color: #fff;
   cursor: pointer;
   width: 50%;
   margin: 15px;
   align-self: center;
+  border-radius: 5px;
 }
 
 input[type="submit"]:hover {
@@ -246,4 +247,38 @@ h3 {
 
 p {
   margin: 0;
+}
+
+.contact-info img {
+  border: solid #ffea01;
+  border-radius: 5px;
+}
+
+
+
+/* ---------------- Images------------*/
+.riv-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.msg-pag {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.contents {
+  flex: 1;
+  padding: 20px;
+  background-color: #c94b07;
+  color: #fff;
+}
+
+.mount {
+  width: 50%;
+  height:auto;
+  border: 23px solid #c94b07;
 }
