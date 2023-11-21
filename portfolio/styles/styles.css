@@ -296,6 +296,22 @@ button:hover {
   background-color: #93aec9;
 }
 
+
+#feedback {
+  background-color: rgb(243, 141, 8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  /* make this element invisible until we are ready for it */
+  display: none;      
+}
+.moveDown {
+  margin-top: 3em;
+}
+              
+
 h3 {
   color: #ffff00;
 }
